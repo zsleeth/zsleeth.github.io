@@ -1,0 +1,489 @@
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+body {
+    line-height:1;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+nav ul {
+    list-style:none;
+}
+blockquote, q {
+    quotes:none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+del {
+    text-decoration: line-through;
+}
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+input, select {
+    vertical-align:middle;
+}
+
+/* My code*/
+
+*{
+  text-decoration: none;
+}
+body{
+  background-color:#FFFDFA;
+}
+header{
+  background-color:#FFFDFA;
+  width: 100%;
+  height: 50px;
+
+}
+header .header-brand{
+  font-family:Trebuchet MS, bahnschrift, helvetica neue, helvetica, Arial;
+  font-size: 24px;
+  font-weight: 999;
+  color: #111;
+  display: inline-block;
+  text-align: left;
+  margin-left: 15px;
+  margin-top: 20px;
+  float:left;
+}
+
+header nav ul{
+  display: contents;
+  margin: 0px auto;
+  width: fit-content;
+
+}
+header nav ul li{
+  display: inline-block;
+  float: right;
+  list-style: none;
+  margin-right:15px;
+  margin-top: 25px;
+}
+header nav ul li a{
+  font-family:Trebuchet MS, bahnschrift, helvetica neue, helvetica, Arial;
+  font-size: 16px;
+  font-weight: 600;
+  color: #111;
+}
+.home{
+  padding-top: 1%;
+}
+.index-links{
+  margin:0 auto ;
+  width: calc(100% - 30px);
+  height: 100%;
+}
+.img-m{
+  width: 100%;
+  margin-bottom: 1%;
+}
+.img-1{
+  margin:0 auto ;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 1%;
+  padding-top: 1%;
+}
+.img-headshot{
+  margin:0 auto ;
+  width: 100%;
+  height: 100%;
+}
+.img-info h2 {
+  padding: 0px 10px 20px;
+  font-family:Trebuchet MS, bahnschrift, helvetica neue, helvetica, Arial;
+  font-size: 20px;
+  color: #111;
+  line-height: 44px;
+}
+.img-info p {
+  font-family:Trebuchet MS, bahnschrift, helvetica neue, helvetica, Arial;
+  font-size: 20px;
+  color: #111;
+  line-height: 24px;
+  text-align: left;
+  display: block;
+  width: 100%;
+  padding-top: 35px;
+  font-weight: 300!important;
+}
+
+.link{
+  color: #81B5D4;
+}
+
+.sidenav{
+  display: none;
+}
+.sidemenu{
+  display: none;
+}
+h3{
+  display: none;
+}
+footer{
+  display: none;
+}
+@media only screen and (min-width: 1000px){
+  .aboutnav{
+    width: 60%;
+    margin-left: 20%;
+  }
+  .index-links{
+      width: 75%;
+      height: 100%;
+      position: relative;
+      margin-left: 24%;
+  }
+  .img-m:hover{
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    opacity: .5;
+  }
+  a {
+    color: black;
+    text-decoration: none;
+}
+header{
+  display: none;
+  background-color:#eaeaea;
+}
+  header .header-brand{
+    display: inline-block;
+    text-align: left;
+    margin-left: 24% ;
+    margin-top: 20px;
+    padding-left: 0px;
+    display: none;
+  }
+  header nav ul{
+    display: block;
+    float: right;
+    margin-right: 1%;
+    padding-right: 0px;
+    display: none;
+  }
+  header nav ul li{
+    float: right;
+    margin-right:0px;
+    margin-top: 27px;
+    padding-left: 15px;
+    display: none;
+  }
+  header nav ul li a{
+    font-family:Trebuchet MS, bahnschrift, helvetica neue, helvetica, Arial;
+    font-size: 20px;
+    font-weight: 600;
+    color: #111;
+    display: none;
+  }
+    .ilink{
+      display: block;
+      position: fixed;
+      padding-top: 2%;
+      padding-left: 2%;
+      height: 5%;
+      width: 15%;
+      z-index: 1;
+
+  }
+    .title {
+    display: block;
+    position: fixed;
+    padding-top: 2%;
+    padding-left: 2%;
+    height: 10%;
+    font-weight: 400;
+  }
+  .title{
+    font-family:consolas, Courier New, Trebuchet MS, bahnschrift, helvetica neue, helvetica, Arial;
+    font-size: 45px;
+    font-weight: 400;
+    color: #111;
+    text-align: left;
+    padding-top: 2%;
+    padding-left: 2%;
+  }
+  .grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 6px;
+
+  }
+  h2.gt{
+    transform: translate(-5%, 280%);
+    /*transform: translate(50%, 130%);
+    width: 50%;*/
+  }
+  .grid > div {
+    float: left;
+    display:block;
+    position: relative;
+    font-family:consolas, Trebuchet MS, bahnschrift, helvetica neue, helvetica, Arial;
+    text-align: center;
+    font-size: 50px;
+    float: left;
+    height: 359px;
+  }
+
+  .duskt{
+    display:block;
+    position: relative;
+    width: 20%;
+    font-family:consolas, Trebuchet MS, bahnschrift, helvetica neue, helvetica, Arial;
+    text-align: center;
+    font-size: 50px;
+    float: left;
+    transform: translate(-5%, 230%);
+  }
+  .duskp{
+    position: relative;
+    display:block;
+    width: 70%;
+    margin-left: 20%;
+    padding-top: 80%;
+    padding-bottom: 3.8%;
+  }
+  .beet{
+    display:block;
+    position: relative;
+    width: 20%;
+    font-family:consolas, Trebuchet MS, bahnschrift, helvetica neue, helvetica, Arial;
+    text-align: center;
+    font-size: 50px;
+    float: left;
+    transform: translate(-5%, 180%);
+  }
+  .beep{
+    position: relative;
+    display:block;
+    width: 70%;
+    margin-left: 20%;
+    padding-bottom: 3.8%;
+    padding-top: 72%;
+  }
+  .teat{
+    display:block;
+    position: relative;
+    width: 20%;
+    font-family:consolas, Trebuchet MS, bahnschrift, helvetica neue, helvetica, Arial;
+    text-align: center;
+    font-size: 50px;
+    float: left;
+    transform: translate(-5%, 120%);
+  }
+  .teap{
+    position: relative;
+    display:block;
+    width: 70%;
+    margin-left: 20%;
+    padding-bottom: 3.8%;
+    padding-top: 80%;
+  }
+  .frogt{
+    display:block;
+    position: relative;
+    width: 20%;
+    font-family:consolas, Trebuchet MS, bahnschrift, helvetica neue, helvetica, Arial;
+    text-align: center;
+    font-size: 50px;
+    float: left;
+    transform: translate(-5%, 60%);
+    line-height: 50px;
+  }
+  .frogp{
+    position: relative;
+    display:block;
+    width: 70%;
+    margin-left: 20%;
+    padding-bottom: 3.8%;
+    padding-top: 62%;
+  }
+  .rb{
+    line-height: 40px;
+  }
+  .img-description {
+    font-family:Trebuchet MS, bahnschrift, helvetica neue, helvetica, Arial;
+    font-size: 20px;
+    color: #111;
+    text-align: left;
+    line-height: 35px;
+    text-align:justify;
+  }
+  .img-description p {
+    font-family:Trebuchet MS, bahnschrift, helvetica neue, helvetica, Arial;
+    font-size: 15px;
+    color: #616161;
+    font-weight: 300;
+  }
+  .sidenav{
+    list-style-type: none;
+    display: block;
+    position: absolute;
+    width: 20%;
+    height: 100%;
+  }
+  .sidemenu{
+    list-style-type: none;
+    display: block;
+    position: fixed;
+    padding-left: 3%;
+    padding-top: 8%;
+    font-family: consolas, Courier New, Trebuchet MS, bahnschrift, helvetica neue, helvetica, Arial;
+    font-size: 20px;
+    font-weight: 400;
+    color: #111;
+    text-align: left;
+  }
+  .sidemenu a{
+    line-height: 40px;
+  }
+  body{
+    background-color:#FFFDFA;
+  }
+  .img-1{
+    width:calc(100% ) ;
+    float: left ;
+    margin: 0px 0px ;
+
+   }
+  .img-headshot{
+     width:calc(60% - 10px) ;
+     padding-top: 35px;
+     margin-right: 35% !important;
+     display:block;
+   }
+   .img-info p {
+     font-family:Trebuchet MS, bahnschrift, helvetica neue, helvetica, Arial;
+     font-size: 18px;
+     color: #111;
+     line-height: 24px;
+     width: 58% ;
+     text-align: justify;
+     display: block;
+     padding-bottom: 35px;
+     margin-left: 6%;
+
+   }
+   h3{
+     font-family:consolas, Trebuchet MS, bahnschrift, helvetica neue, helvetica, Arial;
+     font-size: 60px;
+     font-weight: 999;
+     color: #111;
+     box-sizing: border-box;
+     width: 20%;
+     left: 40%;
+     position: absolute;
+     bottom: 50%;
+     text-align: center;
+
+   }
+   h3{
+     display: none;
+   }
+   .index-links:hover h3{
+     display: block;
+   }
+
+
+footer.footer-boxa{
+  display: inline-block;
+  width:100%;
+  height:20px;
+  font-family:Trebuchet MS, bahnschrift, helvetica neue, helvetica, Arial;
+  font-size: 12px;
+  color: #cccccc;
+  font-weight: 500;
+  text-align: center;
+  background-color:#FFFDFA;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  margin-right: 1%;
+  float: right;
+}
+footer{
+  display: inline-block;
+  width:75%;
+  height:20px;
+  font-family:Trebuchet MS, bahnschrift, helvetica neue, helvetica, Arial;
+  font-size: 12px;
+  color: #cccccc;
+  font-weight: 500;
+  text-align: center;
+  background-color:#FFFDFA;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  margin-right: 1%;
+  float: right;
+}
+}
+@media only screen and (max-width: 1000px){
+  .img-description{
+    display: none;
+  }
+}
